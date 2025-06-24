@@ -7,10 +7,12 @@ Analyze a suspicious email and identify phishing indicators like spoofed email, 
 - VirusTotal (for phishing link scan)
 - MXToolbox (for email header analysis)
 - Manual inspection of body content
+- Cyberplate fake mailer (for creating fake mail)
 
 📋 Summary
 
-I analyzed a fake Netflix email that asked the user to resubscribe.  
+I analyzed a fake Netflix email that asked the user to resubscribe.
+i went to https://www.cyberplate.eu/tools/fake-mailer/ for creating a fake mail where i created a fake mail for Netflix re-subscription.
 It used a spoofed sender, fake domain, phishing link, and urgent language.  
 Header analysis using MXToolbox revealed a forged domain and SPF failure.
 
